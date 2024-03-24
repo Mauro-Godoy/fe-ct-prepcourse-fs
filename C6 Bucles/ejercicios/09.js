@@ -12,6 +12,14 @@ function conection(status) {
   }else{
     return 'offline'
   }
+  if (status === 1) {
+    return 'onlie'
+  } else if (status === 2) {
+    return 'away'
+  } else {
+    return 'offline'
+  }
+
 }
 
 module.exports = conection;

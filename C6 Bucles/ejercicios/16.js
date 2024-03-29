@@ -16,6 +16,5 @@ function saludo(idioma) {
       return 'hola'
   }
 }
-console.log(saludo(aleman))
 
 module.exports = saludo;

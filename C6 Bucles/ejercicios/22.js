@@ -8,9 +8,9 @@ function combine(str1, str2, str3) {
    // combine("abc", "12345", "67") == "a16b27c345"
    var contador = 0
    for (let i = 0; i < arguments.length; i++) {
-     if(arguments[i]===""){
-      contador++
-     }
+      if (arguments[i] === "") {
+         contador++
+      }
    }
    return 'los argumentos que no estan vacion son: ' + contador
 
